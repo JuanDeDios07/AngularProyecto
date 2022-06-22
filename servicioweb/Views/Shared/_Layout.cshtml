@@ -18,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Nombre de la aplicación", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Gestion de Personas", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -31,9 +31,110 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
-        </footer>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div style="background-color:dimgray;color:aliceblue" class="container my-5">
+
+
+        <!--Section: Content-->
+        <section class="team-section text-center dark-grey-text">
+
+            <!-- Section heading -->
+            <h1 class="font-weight-bold pb-2 mb-4">Grupo de Trabajo</h1>
+            <!-- Section description -->
+            <p style="color:aliceblue;font-size:20px" class="text-muted w-responsive mx-auto mb-5">
+                Cuando formas un equipo, ¿Por qué intentas formar un equipo?
+                Porque el trabajo en equipo construye confianza y la confianza construye velocidad.
+            </p>
+
+            <!-- Grid row -->
+            <div class="row text-center">
+
+                <!-- Grid column -->
+                <div class="col-md-4 mb-4">
+                    <div>
+                        <img style="height:300px;width:300px;border-radius:360px" src="~/logo/pilar.png" class="rounded z-depth-1-half" alt="Sample avatar">
+                    </div>
+                    <h4 class="font-weight-bold dark-grey-text my-4">Huallpa Lopez Diana Pilar</h4>
+                    <h6 class="text-uppercase grey-text mb-3"><strong>Desarrolladora web</strong></h6>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 mb-4">
+                    <div>
+                        <img style="height:300px;width:300px;border-radius:360px" src="~/logo/2022.png" class="rounded z-depth-1-half" alt="Sample avatar">
+                    </div>
+                    <h4 class="font-weight-bold dark-grey-text my-4">Atoccsa Huayhua Jimmy Juan de Dios</h4>
+                    <h6 class="text-uppercase grey-text mb-3"><strong>Desarrollador web</strong></h6>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 mb-4">
+                    <div>
+                        <img style="height:300px;width:300px;border-radius:360px" src="~/logo/2022.png" class="rounded z-depth-1-half" alt="Sample avatar">
+                    </div>
+                    <h4 class="font-weight-bold dark-grey-text my-4">Vargas Arango Marco Antonio</h4>
+                    <h6 class="text-uppercase grey-text mb-3"><strong>Desarrollador web</strong></h6>
+                    <br />
+
+                    <a>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </section>
+        <!--Section: Content-->
+
+
+    </div>
+    <br />
+    <style>
+        img {
+            margin-right: 25px;
+        }
+
+        .leer:hover {
+            width: 80px;
+            transform: scale(1.5);
+        }
+    </style>
+    <!-- Footer-->
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <!-- Facebook -->
+                <img class="leer" style="height:70px;width:70px;border-radius:580px;" src="~/logo/facebook_109862.png" />
+
+                <!-- Twitter -->
+                <img class="leer" style="height:70px;width:70px;border-radius:580px;" src="~/logo/g_109859.png" />
+
+                <!-- Google -->
+                <img class="leer" style="height:70px;width:70px;border-radius:580px;" src="~/logo/instagam_109863.png" />
+
+                <!-- Instagram -->
+                <img class="leer" style="height:70px;width:70px;border-radius:580px;" src="~/logo/social_cloud_g_googleplus_132.png" />
+
+                <!-- Linkedin -->
+                <img class="leer" style="height:70px;width:70px;border-radius:580px;" src="~/logo/youtube_109860.png" />
+                <!-- Github -->
+                <img class="leer" style="height:70px;width:70px;border-radius:580px;" src="~/logo/whatsapp_109861.png" />
+            </section>
+            <!-- Section: Social media -->
+        </div>
+
+    </footer>
+    <!-- Footer-->
     </div>
 
     @Scripts.Render("~/bundles/jquery")

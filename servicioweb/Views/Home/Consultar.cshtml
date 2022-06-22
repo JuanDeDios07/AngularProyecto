@@ -9,36 +9,42 @@
 </head>
 <body >
     <div ng-controller="personaController">
-        <table class="table">
+        <br />
+        <br />
+        <br />
+        <table class="table table-bordered">
             <tr>
                 <th>
-                    nombre
+                    CODIGO
                 </th>
                 <th>
-                    apellido
+                    NOMBRE
                 </th>
                 <th>
-                    edad
+                    APELLIDOS
                 </th>
-                <th></th>
+                <th>
+                    EDAD
+                </th>
             </tr>
 
             
-                <tr ng-repeat="p in personitas">
-                    <td>
-                        {{p.nombre}}
-                       
-                    </td>
-                    <td>
-                        {{p.apellido}}
-                    </td>
-                    <td>
-                        {{p.edad}}
-                    </td>
-                    <td>
-                       
-                    </td>
-                </tr>
+            <tr ng-repeat="p in personitas">
+                <td>
+                    {{p.Id}}
+
+                </td>
+                <td>
+                    {{p.nombre}}
+
+                </td>
+                <td>
+                    {{p.apellido}}
+                </td>
+                <td>
+                    {{p.edad}}
+                </td>
+            </tr>
           
 
         </table>

@@ -200,9 +200,24 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Hoja.css" />
+    <Content Include="Content\libro.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="libro\libro01.jpg" />
+    <Content Include="libro\libro02.jpg" />
+    <Content Include="libro\libro03.jpg" />
+    <Content Include="logo\2022.png" />
+    <Content Include="logo\facebook_109862.png" />
+    <Content Include="logo\g_109859.png" />
+    <Content Include="logo\instagam_109863.png" />
+    <Content Include="logo\logo01.png" />
+    <Content Include="logo\messengerf_108040.png" />
+    <Content Include="logo\pilar.png" />
+    <Content Include="logo\social_cloud_g_googleplus_132.png" />
+    <Content Include="logo\whatsapp_109861.png" />
+    <Content Include="logo\youtube_109860.png" />
     <Content Include="Models\SuscribetModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>SuscribetModel.Context.cs</LastGenOutput>
@@ -267,7 +282,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Consultar.cshtml" />
-    <Content Include="Views\Home\Listar.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
